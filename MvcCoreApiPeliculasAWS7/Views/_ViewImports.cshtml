@@ -1,9 +1,4 @@
-﻿@inject IConfiguration configuration
-
-@* @{
-    string UrlBucket = configuration.GetValue<string>("AWS:S3BucketUrl");
-}
- *@
+﻿@inject KeysModel keysModel
 
 @using MvcCoreApiPeliculasAWS7
 @using MvcCoreApiPeliculasAWS7.Models
